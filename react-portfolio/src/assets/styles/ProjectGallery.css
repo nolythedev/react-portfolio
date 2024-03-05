@@ -1,0 +1,13 @@
+.projects {
+    display: flex;
+    
+    gap: 10px;
+}
+
+.project {
+    width: 50%;
+}
+
+.project-image {
+    max-width: 100%;
+}

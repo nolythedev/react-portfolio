@@ -1,4 +1,5 @@
 .content {
+  min-height: 100vh;
   background-color: #F2F1E6;
   z-index: 1; /* Place content above footer */
   padding: 4em 0.5rem; /* Adjust padding as needed */

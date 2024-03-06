@@ -27,6 +27,13 @@ const projects = [
       imageUrl: 'https://images.unsplash.com/photo-1677708892065-b40b379db7bb?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
       // Add more properties as needed
     },
+    {
+      id: 5,
+      title: 'Play:Tennis',
+      description: 'Description of project 3',
+      imageUrl: 'https://images.unsplash.com/photo-1519755886879-4e3381fe0cb7?q=80&w=3324&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+      // Add more properties as needed
+    },
 
   ];
   

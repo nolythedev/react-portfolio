@@ -1,10 +1,11 @@
 import React from 'react'
 import projects from '../utils/projects';
 import '../assets/styles/ProjectGallery.css';
+import { NavLink } from 'react-router-dom';
 
 function ProjectGallery() {
   return (
-    <div className='content'>ProjectGallery
+    <div className='content'>
      <div className="projects">
         {projects.map(project => (
           <div key={project.id} className="project">
@@ -15,7 +16,11 @@ function ProjectGallery() {
           </div>
         ))}
       </div>
-    
+      <div className="button-container">
+          <NavLink to='/contact' className="nav-link">
+            <button>Let's work together</button>
+          </NavLink>
+        </div>
     </div>
     
   )

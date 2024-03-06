@@ -29,9 +29,9 @@ const projects = [
     },
     {
       id: 5,
-      title: 'Play:Tennis',
+      title: 'Everyday:Humans',
       description: 'Description of project 3',
-      imageUrl: 'https://images.unsplash.com/photo-1519755886879-4e3381fe0cb7?q=80&w=3324&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+      imageUrl: 'https://images.unsplash.com/photo-1598662972299-5408ddb8a3dc?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
       // Add more properties as needed
     },
 

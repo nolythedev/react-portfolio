@@ -7,6 +7,7 @@ import ProjectGallery from './components/ProjectGallery';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Project from './components/Project';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Route path="/projectGallery" element={<ProjectGallery />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/project/:id" element={<Project />} />
         {/* Add more routes here if needed */}
       </Routes>
       <Footer />

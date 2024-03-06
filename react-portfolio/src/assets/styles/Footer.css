@@ -1,0 +1,36 @@
+.footer {
+    color: #ffffff;
+    z-index: -1; /* Place footer behind content */
+    background-color: #1e1e1e;
+    position: sticky;
+    bottom: 0; /* Stick to the bottom */
+    padding: 2rem 0.5rem;
+  }
+
+  .footer-title {
+    font-size: 11em;
+    margin: 0;
+    /* padding: 1em; */
+    width: 100%;
+    text-align: center; /* Center the text horizontally */
+    color: white;
+  }
+
+.footer-logo {
+  max-width: 100%;
+}
+
+.links {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  color: #ffffff;
+}
+
+.footer-nav-link {
+  color: #ffffff;
+  font-size: 1.8rem;
+}

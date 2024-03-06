@@ -20,6 +20,13 @@ const projects = [
       imageUrl: 'https://images.unsplash.com/photo-1633533450350-cdb144904c33?q=80&w=3131&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
       // Add more properties as needed
     },
+    {
+      id: 4,
+      title: 'Joolies',
+      description: 'Description of project 3',
+      imageUrl: 'https://images.unsplash.com/photo-1677708892065-b40b379db7bb?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+      // Add more properties as needed
+    },
 
   ];
   

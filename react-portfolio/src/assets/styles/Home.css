@@ -1,0 +1,60 @@
+.project {
+    width: 100% !important;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.recent-project-image {
+    width: 100%; /* Set width to 100% of the container */
+    height: 600px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 10px;
+  }
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;   
+}
+
+.skills,
+.recent-work {
+    margin-top: 3rem;
+}
+
+.skills-container {
+    width: 100%;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.skill {
+    border: 0.1rem solid #1e1e1e;
+    color: #1e1e1e;
+    border-radius: 10em;
+    padding: 0.5rem 1rem 0.6rem;
+    font-size: 2.2em;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.projects-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recent-project {
+    width: 50%;
+    padding: 10px;
+}

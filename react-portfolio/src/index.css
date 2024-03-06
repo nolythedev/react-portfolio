@@ -30,12 +30,12 @@ a:hover {
 
 body {
   color: #1e1e1e;
-  background-color: #F2F1E6;
   margin: 0;
   /* display: flex;
   place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {

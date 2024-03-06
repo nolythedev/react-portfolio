@@ -6,6 +6,7 @@ import Header from './components/Header';
 import ProjectGallery from './components/ProjectGallery';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
         {/* Add more routes here if needed */}
       </Routes>
+      <Footer />
     </Router>
   )
 }

@@ -1,0 +1,12 @@
+.content {
+  min-height: 100vh;
+  background-color: #F2F1E6;
+  z-index: 1; /* Place content above footer */
+  padding: 4em 0.5rem; /* Adjust padding as needed */
+  max-width: 100%;
+  margin: 0 auto; /* Centers the content horizontally */
+}
+
+ .h2 {
+  font-size: 4.6rem;
+ }

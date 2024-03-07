@@ -1,8 +1,42 @@
-# React + Vite
+# Studio Noch - Personal React portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description 
 
-Currently, two official plugins are available:
+A minimal, clean and responsive personal portfolio built with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The link to the deployed Netlify page can be found [here](https://studionoch.netlify.app/).
+
+## Table of Contents (Optional)
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+
+## Preview
+
+![alt text](./src/assets/repo.gif)
+
+## Installation
+
+* Clone the repository: git clone https://github.com/nolythedev/react-portfolio
+* Navigate to the project directory: cd react-portfolio
+* Open the codebase in your preferred code editor.
+
+## Usage 
+
+N/A
+
+## Credits
+
+Thank you to the edX team && unsplash images
+
+## License
+
+You are free to use this code as inspiration.
+Please do not copy it directly.
+Crediting the author is appreciated.
+
+---
+
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

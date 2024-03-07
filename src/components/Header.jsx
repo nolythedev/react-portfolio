@@ -16,11 +16,6 @@ function Header() {
                         </NavLink>
                     </li>
                     <li className='nav-item'>
-                        <NavLink to='/about' className="nav-link">
-                           About
-                        </NavLink>
-                    </li>
-                    <li className='nav-item'>
                         <NavLink to='/projectGallery' className="nav-link">
                             Work
                         </NavLink>

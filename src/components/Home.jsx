@@ -2,7 +2,7 @@ import React from 'react';
 import projects from '../utils/projects';
 import '../assets/styles/Home.css';
 import { NavLink } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -13,8 +13,10 @@ function Home() {
     <div className='content'>
       {recentProject && (
         <div className="hero-project">
+           <Link key={recentProject.id} to={{ pathname: `/project/${recentProject.id}` }}>
           <div className="hero-container" style={{ backgroundImage: `url(${recentProject.imageUrl})` }}>
           </div>
+          </Link>
           <div className="title-container">
             <h3>Featured Project</h3>
             <h3>{recentProject.title}</h3>
@@ -40,10 +42,11 @@ function Home() {
         <div className="projects-container">
         {projects.slice(0, 2).map(project => (
             <div key={project.id} className="recent-project">
+              <Link key={project.id} to={{ pathname: `/project/${project.id}` }}>
               <img src={project.imageUrl} alt={project.title} className='recent-project-image' />
+              </Link>
               <h3>{project.title}</h3>
-              {/* <p>{project.description}</p> */}
-              {/* Add more project details */}
+        
             </div>
           ))}
         </div>

@@ -14,8 +14,6 @@ function ProjectGallery() {
               <img src={project.imageUrl} alt={project.title} className='project-image' />
             </Link>
             <h3>{project.title}</h3>
-            {/* <p>{project.description}</p> */}
-            {/* Add more project details */}
           </div>
         ))}
       </div>

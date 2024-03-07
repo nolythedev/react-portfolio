@@ -29,3 +29,11 @@ form button {
     padding: 0.em 1.5em;
     font-size: 1.8em;
 }
+
+@media only screen and (max-width: 760px) { 
+    .contact {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
